@@ -20,6 +20,7 @@ ggplot(df, aes(x = x_variable, y = y_variable)) +
   theme_minimal()
 ```
 
+
 #### Grouping
 
 You can visually group items in plots together using the `color` argument.
@@ -114,6 +115,7 @@ A small tip about plotting discrete variables: If there is overplotting (e.g. mu
 ggplot(data, aes(x = category, y = value)) +
   geom_jitter(width = 0.2, height = 0.1)
 ```
+
 
 #### Statistics
 
